@@ -6,7 +6,7 @@ l_maker.organize_and_export_url_list()
 batch_crawler = LSperBatchMinifichaCrawler()
 batch_crawler.store_all_raw_html()
 
-parser = LSJsonFichaParser(path="url_list", chromiun_path='/usr/lib/chromium-browser/chromedriver', path_to_store='minifichas_list')
+parser = LSJsonFichaParser(jsonpath="minifichas_list", to_store_path='parsed_fichas')
 parser.parse_and_store_all()
 
 csv_gen = RealEstateDataCSVgen()
