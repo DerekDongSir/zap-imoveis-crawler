@@ -1,3 +1,5 @@
+I'd like to make it clear that I like a lot this project. No because of its performance, idea or results, but because it was my first one on learning to code. I think that my little journey, that led me from Law School to Applied Math, computing and now for a wonderful internship started here. Because of that, even if I do improve this crawler, the "law-school" branch will be here, as it means a lot to me. 
+
 With the "largescalecrawlstuff.py" module you are able to crawl and parse Real Estate Market data from Brazil, from the site "zapimoveis.com"
 The many intermediate datas let you be sure you will not lose your scraping, and in the raw data crawler you can stop and begin to crawl again and the crawling already done will be saved.
 As ZapImoveis has much data available to crawl, and computers often crash when handling stuff of this magnitude in memory, I tried to make a solution to crawl from very little to very big quantities of data.
